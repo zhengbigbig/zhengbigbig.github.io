@@ -231,6 +231,10 @@ a:hover.post-meta, a:active.post-meta {
   display: inline-block;
 }
 
+.div-x {
+  text-align: center;
+}
+
 .div-x div {
   display: inline-block;
 }
