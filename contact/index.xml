@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on Bigbig Zheng</title>
-    <link>http://www.zhengbigbig.top/contact/</link>
+    <link>https://www.zhengbigbig.top/contact/</link>
     <description>Recent content in Contact on Bigbig Zheng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Sun, 02 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.zhengbigbig.top/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.zhengbigbig.top/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
