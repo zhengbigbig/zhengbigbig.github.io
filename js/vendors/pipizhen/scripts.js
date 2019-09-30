@@ -75,7 +75,7 @@
 
     initHalftone('the-look');
 
-    thumbnailRail.addEventListener('click', onThumbnailClick, false);
+    // thumbnailRail.addEventListener('click', onThumbnailClick, false);
 
     function onThumbnailClick(event) {
       if (event.target.nodeName !== 'IMG') {
