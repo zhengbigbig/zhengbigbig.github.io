@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>前端 on Bigbig Zheng</title>
-    <link>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/tags/%E5%89%8D%E7%AB%AF/</link>
+    <link>http://zhengbigbig.top/tags/%E5%89%8D%E7%AB%AF/</link>
     <description>Recent content in 前端 on Bigbig Zheng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zn-Hans</language>
+    <language>zh-Hans</language>
     <lastBuildDate>Mon, 13 Aug 2018 00:14:19 +0800</lastBuildDate>
     
-	<atom:link href="http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/tags/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://zhengbigbig.top/tags/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog养成记(11) 给网站加个小icon</title>
-      <link>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B011-%E7%BB%99%E7%BD%91%E7%AB%99%E5%8A%A0%E4%B8%AA%E5%B0%8Ficon/</link>
+      <link>http://zhengbigbig.top/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B011-%E7%BB%99%E7%BD%91%E7%AB%99%E5%8A%A0%E4%B8%AA%E5%B0%8Ficon/</link>
       <pubDate>Mon, 13 Aug 2018 00:14:19 +0800</pubDate>
       
-      <guid>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B011-%E7%BB%99%E7%BD%91%E7%AB%99%E5%8A%A0%E4%B8%AA%E5%B0%8Ficon/</guid>
+      <guid>http://zhengbigbig.top/blog/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B011-%E7%BB%99%E7%BD%91%E7%AB%99%E5%8A%A0%E4%B8%AA%E5%B0%8Ficon/</guid>
       <description>我们经常看到百度等网页会有自己的网站图标，在浏览器打开时显示在左侧，那如何给自己的网站也添加这么一个icon呢？</description>
     </item>
     
     <item>
       <title>前端试水(2) 使用docker镜像的Sass配置</title>
-      <link>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B42-%E4%BD%BF%E7%94%A8docker%E9%95%9C%E5%83%8F%E7%9A%84sass%E9%85%8D%E7%BD%AE/</link>
+      <link>http://zhengbigbig.top/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B42-%E4%BD%BF%E7%94%A8docker%E9%95%9C%E5%83%8F%E7%9A%84sass%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Thu, 02 Aug 2018 15:49:22 +0800</pubDate>
       
-      <guid>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B42-%E4%BD%BF%E7%94%A8docker%E9%95%9C%E5%83%8F%E7%9A%84sass%E9%85%8D%E7%BD%AE/</guid>
+      <guid>http://zhengbigbig.top/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B42-%E4%BD%BF%E7%94%A8docker%E9%95%9C%E5%83%8F%E7%9A%84sass%E9%85%8D%E7%BD%AE/</guid>
       <description>前言 半年前，由于终于将博客主题初版设计出来准备开始实施，在less和sass中纠结良久选择了sass。为了保持环境纯净性，想用docker装sass，用node-sass，试了几次中间都失败，无奈放弃。几乎半年后的今天，莫名又开始有搭建网页的欲望，于是又开始折腾。不过这次运气不错，终于折腾成功。 Sass是什么 Sass 是一个 css的预编译器。它在css语法的基础上，引入了更多的变量、规则等功能，可以帮助c</description>
     </item>
     
     <item>
       <title>前端试水(1) 前端技术路线</title>
-      <link>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B41-%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF/</link>
+      <link>http://zhengbigbig.top/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B41-%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF/</link>
       <pubDate>Wed, 01 Aug 2018 10:23:48 +0800</pubDate>
       
-      <guid>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B41-%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF/</guid>
+      <guid>http://zhengbigbig.top/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B41-%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF/</guid>
       <description>前言 对于前端的了解欲望实际上是从想对博客主题进行修改开始的。但是前端这部分一直对我来说是个谜，虽然这些名词都能搜索到，但一直傻傻的不得其门而入。总算在一年后的今天，尽管还有很多地方暂时是迷雾状态，但貌似略了解一点前端的整体框架。现在算是开了新的一个系列，在此算是记录一下我了解的前端的技术路线，如果那些和我一样的前端小白们能通过这个也大概了解一点到底现在需要学的、用的是什么，就再好不过了。 对了，先声</description>
     </item>
     
