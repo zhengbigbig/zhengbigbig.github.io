@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bigbig Zheng</title>
-    <link>http://github.com/zhengbigbig/zhengbigbig.github.io/categories/</link>
+    <link>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/categories/</link>
     <description>Recent content in Categories on Bigbig Zheng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Mon, 13 Aug 2018 00:14:19 +0800</lastBuildDate>
     
-	<atom:link href="http://github.com/zhengbigbig/zhengbigbig.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>杂技浅尝</title>
-      <link>http://github.com/zhengbigbig/zhengbigbig.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</link>
+      <link>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</link>
       <pubDate>Mon, 13 Aug 2018 00:14:19 +0800</pubDate>
       
-      <guid>http://github.com/zhengbigbig/zhengbigbig.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</guid>
+      <guid>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</guid>
       <description></description>
     </item>
     
     <item>
       <title>品鉴评论</title>
-      <link>http://github.com/zhengbigbig/zhengbigbig.github.io/categories/%E5%93%81%E9%89%B4%E8%AF%84%E8%AE%BA/</link>
+      <link>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/categories/%E5%93%81%E9%89%B4%E8%AF%84%E8%AE%BA/</link>
       <pubDate>Sun, 12 Aug 2018 23:03:12 +0800</pubDate>
       
-      <guid>http://github.com/zhengbigbig/zhengbigbig.github.io/categories/%E5%93%81%E9%89%B4%E8%AF%84%E8%AE%BA/</guid>
+      <guid>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/categories/%E5%93%81%E9%89%B4%E8%AF%84%E8%AE%BA/</guid>
       <description></description>
     </item>
     

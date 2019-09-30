@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docker on Bigbig Zheng</title>
-    <link>http://github.com/zhengbigbig/zhengbigbig.github.io/tags/docker/</link>
+    <link>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/tags/docker/</link>
     <description>Recent content in docker on Bigbig Zheng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Thu, 02 Aug 2018 15:49:22 +0800</lastBuildDate>
     
-	<atom:link href="http://github.com/zhengbigbig/zhengbigbig.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>前端试水(2) 使用docker镜像的Sass配置</title>
-      <link>http://github.com/zhengbigbig/zhengbigbig.github.io/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B42-%E4%BD%BF%E7%94%A8docker%E9%95%9C%E5%83%8F%E7%9A%84sass%E9%85%8D%E7%BD%AE/</link>
+      <link>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B42-%E4%BD%BF%E7%94%A8docker%E9%95%9C%E5%83%8F%E7%9A%84sass%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Thu, 02 Aug 2018 15:49:22 +0800</pubDate>
       
-      <guid>http://github.com/zhengbigbig/zhengbigbig.github.io/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B42-%E4%BD%BF%E7%94%A8docker%E9%95%9C%E5%83%8F%E7%9A%84sass%E9%85%8D%E7%BD%AE/</guid>
+      <guid>http://github.com/zhengbigbig/zhengbigbig.github.io/tree/master/blog/2018-08/%E5%89%8D%E7%AB%AF%E8%AF%95%E6%B0%B42-%E4%BD%BF%E7%94%A8docker%E9%95%9C%E5%83%8F%E7%9A%84sass%E9%85%8D%E7%BD%AE/</guid>
       <description>前言 半年前，由于终于将博客主题初版设计出来准备开始实施，在less和sass中纠结良久选择了sass。为了保持环境纯净性，想用docker装sass，用node-sass，试了几次中间都失败，无奈放弃。几乎半年后的今天，莫名又开始有搭建网页的欲望，于是又开始折腾。不过这次运气不错，终于折腾成功。 Sass是什么 Sass 是一个 css的预编译器。它在css语法的基础上，引入了更多的变量、规则等功能，可以帮助c</description>
     </item>
     
