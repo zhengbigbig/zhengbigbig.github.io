@@ -8,7 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="郑志恒">
   <meta name="description" content="前言 又一次开始折腾Markdown了，不过这一次是因为好好的md文件，在typora中显示的好好的，但在Hugo渲染后格式就不对了，引起我这次探究主要问题在多级列表。考虑到毕竟两个软件的markdown渲染引擎不同，我并没有用到很特别的语法。之前在引用上也碰到了问题，typora中能很好地识别我想要的引用段落，但是Hugo不行。所以这次探究下是哪里出了问题，以及对应的解决方案。 既然已经提到了mar">
-  
   <meta property="og:title" content="Blog养成记(7) Hugo多级列表无法显示? —— Markdown的bug合集" />
 <meta property="og:description" content="前言 又一次开始折腾Markdown了，不过这一次是因为好好的md文件，在typora中显示的好好的，但在Hugo渲染后格式就不对了，引起我这次探究主要问题在多级列表。考虑到毕竟两个软件的markdown渲染引擎不同，我并没有用到很特别的语法。之前在引用上也碰到了问题，typora中能很好地识别我想要的引用段落，但是Hugo不行。所以这次探究下是哪里出了问题，以及对应的解决方案。 既然已经提到了mar" />
 <meta property="og:type" content="article" />
@@ -25,7 +24,6 @@
   </title>
 
   <link rel="canonical" href="https://www.zhengbigbig.top/blog/2018-03/blog%E5%85%BB%E6%88%90%E8%AE%B07-hugo%E5%A4%9A%E7%BA%A7%E5%88%97%E8%A1%A8%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA-markdown%E7%9A%84bug%E5%90%88%E9%9B%86/">
-
   
   
 
@@ -34,14 +32,20 @@
 
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600">
-  <link href="https://www.zhengbigbig.top/css/font.css" rel="stylesheet"> 
-    
+  <link href="https://www.zhengbigbig.top/css/font.css" rel="stylesheet">
+
   
   <link href="https://www.zhengbigbig.top/css/vendors/bootstrap4/bootstrap.min.css" rel="stylesheet">
-  <link href="https://www.zhengbigbig.top/css/vendors-extensions/mdb/mdb.min.css" rel="stylesheet"> 
-  <link href="https://www.zhengbigbig.top/css/vendors/mdb/style.min.css" rel="stylesheet"> 
+  <link href="https://www.zhengbigbig.top/css/vendors-extensions/mdb/mdb.min.css" rel="stylesheet">
+  <link href="https://www.zhengbigbig.top/css/vendors/mdb/style.min.css" rel="stylesheet">
+  <link href="https://www.zhengbigbig.top/css/search.css" rel="stylesheet">
+  <link href="https://www.zhengbigbig.top/css/remodal-default-theme.css" rel="stylesheet">
+  <link href="https://www.zhengbigbig.top/css/remodal.css" rel="stylesheet">
   <link href="https://www.zhengbigbig.top/css/main.css" rel="stylesheet">
 
+  
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css">
 
   
   <link rel="shortcut icon"
@@ -64,13 +68,13 @@
 
 
   
-    
+  
     <link rel="stylesheet" href="https://www.zhengbigbig.top/js/vendors/katex/katex.min.css">
   
   
 
   
-    
+  
     <link rel="stylesheet" href="https://www.zhengbigbig.top/css/vendors/highlight/github-gist.css">
   
 
@@ -88,51 +92,66 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
 
-      
-      <a class="navbar-brand logo-flash" href="https://www.zhengbigbig.top/">
-          
-        <img src="https://www.zhengbigbig.top/img/zheng_new.png" style="width: auto;height: 40px;"  class="d-inline-block align-top" alt="" >
         
-        
-      </a>
-
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <a class="navbar-brand logo-flash" href="https://www.zhengbigbig.top/">
+            
+            <img src="https://www.zhengbigbig.top/img/zheng_new.png" style="width: auto;height: 40px;"
+                 class="d-inline-block align-top" alt="">
+            
+            
+        </a>
 
         
-        <ul class="navbar-nav mr-auto ">
-          <li class="nav-item ">
-            <a class="nav-link" href="https://www.zhengbigbig.top/">Home</a>
-          </li>
-          
-            <li class="nav-item ">
-              <a class="nav-link" href="https://www.zhengbigbig.top/blog/" >Blog  </a>
-            </li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-          
-            <li class="nav-item ">
-              <a class="nav-link" href="https://www.zhengbigbig.top/contact/" >Contact  </a>
-            </li>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-          
-            <li class="nav-item ">
-              <a class="nav-link" href="https://www.zhengbigbig.top/about/" >About  </a>
-            </li>
+            
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item ">
+                <a class="nav-link" href="https://www.zhengbigbig.top/">Home</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://www.zhengbigbig.top/blog/">Blog  </a>
+                </li>
 
-          
-        </ul>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://www.zhengbigbig.top/contact/">Contact  </a>
+                </li>
 
-      </div>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://www.zhengbigbig.top/about/">About  </a>
+                </li>
 
+                
+                <a data-remodal-target="searchinput" class="nav-link">search</a>
+            </ul>
+        </div>
     </div>
-  </nav>
-  
+    
+    <div class="remodal" data-remodal-id="searchinput" role="dialog" aria-labelledby="modal1Title"
+         aria-describedby="modal1Desc">
+        
+        <span id="algoliaData" style="display:none;" data-appid=""
+              data-searchkey=""
+              data-initindex=""></span>
+
+        <div class="search-input-card">
+            <input type="search" id="search-input" class="search-input" placeholder="站内搜索"
+                   name="search" autocomplete="off"/>
+            <span class="input-search-icon"><i class="fa fa-search"></i></span>
+        </div>
+    </div>
+</nav>
+
  
       
  
@@ -1111,7 +1130,11 @@ This text is <strong><em>really important</em></strong>.</p>
 
 <script type="text/javascript" src="https://www.zhengbigbig.top/js/vendors/jquery/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="https://www.zhengbigbig.top/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="https://www.zhengbigbig.top/js/vendors/remodal.js"></script>
+<script type="text/javascript" src="https://www.zhengbigbig.top/js/vendors/remodal.min.js"></script>
 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/algoliasearch/3.30.0/algoliasearch.jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.32.0/autocomplete.jquery.min.js"></script>
 
 
 <script type="text/javascript" src="https://www.zhengbigbig.top/js/vendors/popper.min.js"></script>
@@ -1126,6 +1149,7 @@ This text is <strong><em>really important</em></strong>.</p>
 
 <script type="text/javascript" src="https://www.zhengbigbig.top/js/vendors/pipizhen/scripts.js"></script>
 
+<script type="text/javascript" src="https://www.zhengbigbig.top/js/vendors/search.js"></script>
 
 <script type="text/javascript" src="https://www.zhengbigbig.top/js/main.js"></script>
 
