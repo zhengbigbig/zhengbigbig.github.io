@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>博客 on Bigbig Zheng</title>
-    <link>https://www.zhengbigbig.top/blog/</link>
-    <description>Recent content in 博客 on Bigbig Zheng</description>
+    <title>hugo配置 on Bigbig Zheng</title>
+    <link>https://www.zhengbigbig.top/series/hugo%E9%85%8D%E7%BD%AE/</link>
+    <description>Recent content in hugo配置 on Bigbig Zheng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Sep 2018 22:31:21 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2019 11:20:15 +0800</lastBuildDate>
     
-	<atom:link href="https://www.zhengbigbig.top/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.zhengbigbig.top/series/hugo%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

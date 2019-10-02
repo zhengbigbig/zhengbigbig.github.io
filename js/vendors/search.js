@@ -20,6 +20,7 @@ function establishSearch(searchInputSelector) {
       displayKey: 'name',
       templates: {
         suggestion: function (suggestion) {
+          console.log(suggestion);
           return '<span>' + '<a href="/' + suggestion.uri.toLowerCase() + '">' +
             suggestion._highlightResult.title.value + '</a></span>';
 
