@@ -1,211 +1,23 @@
 [
     {
-        "date": "2018-01-30T15:04:48+08:00",
-        "uri": "blog/2018-01/mac小白探索记1-基本设置与常用软件",
-        "content": "2017          mac   mac                                            mac                         mac                   terminal          Mac OS           Windows              exe                              Linux                                                                                                      App Store                     App Store                                    PS                         mac                     command     option     control     shift     space Windows   control             mac                  command    C    V                Mac                 mac                                                                                                                    Lauchpad                mission control  Touchbar                                                   center         center                         touchbar       touchbar             night shift                  touchbar                          touchbar              BetterTouchTool                              apple                    mac                                  terminal       sudo spctl   master disable                                                                      center         center          Homebrew Mac OS      Homebrew             Ubuntu  apt get             The missing package manager macOS       Mac OS          Homebrew       brew             terminal               usr bin ruby  e    curl  fsSL https   raw githubusercontent com Homebrew install master install      Homebrew                 Homebrew                                                                                               git            git                  git     Homebrew                                           git                git                  git                                                  git         brew                                   brew                       Homebrew        Terminal      ruby  e    curl  fsSL https   raw githubusercontent com Homebrew install master uninstall          brew update   Homebrew               git   xcrun  error  invalid active developer path   Library Developer CommandLineTools   missing xcrun at   Library Developer CommandLineTools usr bin xcrun Error  Failure executing  git config   local   replace all homebrew private true          terminal      brew upgrade git Homebrew Cask Cask   Homebrew Homebrew     cask                  brew cask xxx          brew search xxx              caskroom cask        brew cask install xxx     brew install caskroom cask xxx           Cask                    brew cask upgrade                                 Homebrew     terminal       brew cask install sogouinput                        menu bar               Windscribe     img no border         img no border            Windscribe                                      Homebrew                                           10G                        ipad        Spectacle     img no border         img no border       Homebrew        brew cask install spectacle Spectacle                        Spectacle                                     Sizeup  Spectacle       C             center        Finder                                  Perference                               Amphetamine           img no border         img no border       App Store            Dock                                                     Amphetamine                                         Trigger                               Wifi       Amphetamine                                                      Amphetamine                                               NoSleep             img no border         img no border           mac                                                                   NoSleep               NoSleep  Homebrew          brew cask install nosleep NoSleep                                                 Cheatsheet           img no border         img no border       brew cask install cheatsheet                    Unarchive     img no border         img no border     Unarchiver      RAR 7 zip Tar                  ISO EXE                   brew cask install the unarchiver     Azureus     img no border         img no border        PT      linux             brew cask install vuze     Splayerx           img no border         img no border                                                                                brew cask install splayerx VLC     img no border         img no border     vlc   linux                                    hold         PS iphone ipad              rmvb         brew cask install vlc Tuxera NTFS Mac 2015                  Little Snitch                img no border         img no border                                                      Docker     img no border         img no border     Terminal         brew cask install docker            docker          Sublime Text     img no border         img no border                            Homebrew     brew cask install sublime text sublime3         Package Control             console                import urllib request os  pf    Package Control sublime pack",
-        "objectID": "blog/2018-01/mac小白探索记1-基本设置与常用软件",
-        "draft": false,
-        "title": "Mac小白探索记(1) 基本设置与常用软件",
-        "tags": [
-            "mac",
-            "软件安装"
-        ],
-        "series": [
-            "Mac小白探索记"
-        ],
-        "categories": [
-            "杂技浅尝"
-        ],
-        "toc": true
-    },
-    {
-        "date": "2018-01-30T20:21:13+08:00",
-        "uri": "blog/2018-01/mac小白探索记2-finder设置",
-        "content": "Finder mac               Windows          Windows     Finder             Finder                                              Finder             Mac  Finder    usr  etc                                mac          linux                                                 terminal           defaults write com apple finder AppleShowAllFiles  bool true     Finder  terminal        killall Finder                                                                        center         center                                                             center         center                     C                                             Spectacle                             Terminal                      Finder                            Terminal  cd                             C      terminal                                                         Terminal       Go2Shell    Finder Toolbox                                                                               center         center        Finder                                  img no border        center         center         img no border                      T                             Go2Shell     img no border         img no border                             App Store            Homebrew      brew cask install go2shell          Install Go2Shell Finder      center         center           Finder      Go2Shell                        Terminal               terminal    touch xxx txt              terminal       windows                  Automator       Applicstion      img no border         img no border                               img no border        center         center         img no border          Application       img no border         img no border        Run AppleScript                      img no border         img no border               run  input  parameters  tell application  Finder  set selection new file  get insertion location  end tell return input end run    S        app             img no border         img no border                              C        NewFile app    I                               V                  img no border        center         center         img no border        Finder        Finder                           NewFile app                 Finder                   spotlight  NewFile          img no border        center         center         img no border            Version   Action   Time                                                         1 0   Init   2018 01 30     1 1   Finder            2018 02 14     1 2          2018 03 07",
-        "objectID": "blog/2018-01/mac小白探索记2-finder设置",
-        "draft": false,
-        "title": "Mac小白探索记(2) Finder设置",
-        "tags": [
-            "mac"
-        ],
-        "series": [
-            "Mac小白探索记"
-        ],
-        "categories": [
-            "杂技浅尝"
-        ],
-        "toc": true
-    },
-    {
-        "date": "2018-03-20T16:46:17+08:00",
-        "uri": "blog/2018-03/blog养成记7-hugo多级列表无法显示--markdown的bug合集",
-        "content": "Markdown             md    typora          Hugo                                     markdown                                 typora                  Hugo                                    markdown              hugo markdown     Markdown              GitHub Flavored Markdown     GFM    CommonMark      Hugo      Blackfriday  Markdown              md   markdown                          Blackfriday             hugo   mmark mmark     Blackfriday                           mmark          mmark                markup  mmark    mmark                                               try     first     second                       try     first     second                                1  try     first     second         1  try   1  first   2  second                              quote         code fence       quote       code fence             quote           code fence         quote       code fence                               BlackFriday                                                                          2      markdown              4                        cocoa     css    static css override css        Nested Unordered List    section main  content  markdown ul   li   list style type  disc    section main  content  markdown ul   li   ul   li   list style type  circle    section main  content  markdown ul   li   ul   li   ul   li   list style type  square                        BlackFriday           css      static css override css        Mix List    section main  content  markdown ul   li   ol   li   list style type  decimal    section main  content  markdown ol   li   ul   li   list style type  disc    section main  content  markdown ol   li   ul   li   ul   li   list style type  circle                                                 code fence     code fence                                       quote     code fence quote   code fence Heading level 1 Heading level 2 Heading level 3 Heading level 4 Heading level 5 Heading level 6 just love bold text  just love bold text  Loveisbold Italicized text cat s meow  Italicized text cat s meow  Acatmeow text really important  text really important  text really important  text really important    Dorothy followed beautiful rooms castle    Dorothy followed beautiful rooms castle      Witch bade clean pots kettles sweep floor keep fire fed wood    Dorothy followed beautiful rooms castle       Witch bade clean pots kettles sweep floor keep fire fed wood  PPP        quarterly results look great        Revenue off chart      Profits higher ever      Everything going according plan  First item Second item Third item Fourth item PS Go First item Second item Third item Fourth item FFF First item Second item Third item Fourth item DDD First item Second item Third item Indented item Indented item Fourth item GGG First item Second item Third item Fourth item DDD First item Second item Third item Fourth item FFF First item Second item Third item Indented item Indented item Test 3 Test 4 Fourth item DDD first list item  Here s second list item  need add paragraph below second list item  here s third list item  DDD first list item  Here s second list item    blockquote look great below second list item  here s third list item   Use code Markdown file       task list item     list syntax required     incomplete  x  completed Resource           docker Hugo      Docker Hub  repo Github  repo        Hugo    blog hugo CommonMark GitHub Flavored Markdown Spec mmark github Blackfriday          Version   Action   Time                                       1 0   Init Q1 Q3   2018 03 20",
-        "objectID": "blog/2018-03/blog养成记7-hugo多级列表无法显示--markdown的bug合集",
-        "draft": false,
-        "title": "Blog养成记(7) Hugo多级列表无法显示? —— Markdown的bug合集",
-        "tags": [
-            "hugo",
-            "markdown",
-            "nested list",
-            "bug",
-            "blog",
-            "typora"
-        ],
-        "series": [
-            "Blog养成记"
-        ],
-        "categories": [
-            "杂技浅尝"
-        ],
-        "toc": true
-    },
-    {
-        "date": "2018-05-26T16:37:59+08:00",
-        "uri": "blog/2018-05/中文版音乐剧长腿叔叔repo",
-        "content": "2018 5 25  19 30      12 18                                                    Jade                                                                       Repo           12          18                                                                                                                                                                                                                                                                                          Manhattan                                                                                                                                                                                  N                                                                                                                                                                                                                                                                                                                         Version   Action   Time                                       1 0   Init   2018 05 26",
-        "objectID": "blog/2018-05/中文版音乐剧长腿叔叔repo",
-        "draft": false,
-        "title": "中文版音乐剧《长腿叔叔》repo",
-        "tags": [
-            "musical",
-            "中文",
-            "兰心"
-        ],
-        "series": [
-            "观后repo"
-        ],
-        "categories": [
-            "品鉴评论"
-        ],
-        "toc": true
-    },
-    {
-        "date": "2018-05-24T20:22:13+08:00",
-        "uri": "blog/2018-05/爱尔兰踢踏舞王者之舞危险游戏",
-        "content": "2018 5 4  19 30      4 11                                          17                                                                                         5 4                                                                                 Repo                  4            5                                      6                                                                                                      LED                                                                   LED                                                  1     2                                          2                           Michael                                                                                                                                                                                                                                      Encore                                                                                                                                                                                                                                                                                                                                                                                                                                                 2018 5 6                                          Michael                                                                                                              Ghost    Wizard                                                   Version   Action   Time                                       1 0   Init   2018 05 24",
-        "objectID": "blog/2018-05/爱尔兰踢踏舞王者之舞危险游戏",
-        "draft": false,
-        "title": "爱尔兰踢踏舞《王者之舞∙危险游戏》",
-        "tags": [
-            "踢踏舞",
-            "文广"
-        ],
-        "series": [
-            "观后repo"
-        ],
-        "categories": [
-            "品鉴评论"
-        ],
-        "toc": true
-    },
-    {
-        "date": "2018-05-24T10:17:35+08:00",
-        "uri": "blog/2018-05/现实与幻想的距离观深夜小狗离奇事件repo感想",
-        "content": "repo                                            National Theatre                       2018 5 16  19 30      4 9                              The Curious Incident Dog Night time   2013       Broadway                                              2013  7      2015  5                                 NTLive                       National Theatre                                             4           5 16  vip               Repo            6 10              4 9     5                                                                                                                                                                                                                                                      LED                                                                          Christopher                        Christopher                         LED          London            Logo     Christopher     LED          Logo                  LED      Christopher           LED                                           Christopher                                                                   Christopher                                                                                   Christopher  London                       LED                                                              Christopher                Joshua Jenkins         UK Tour    1            7                                                                                                                                                                                                       Siobhan                                Christopher                           Christopher                                                                                                                                                  Siobhan           Christopher                  Christopher                Christopher            Siobhan                         Christopher                                           Christopher     London                         Siobhan    Christopher                  Chiristopher                  Siobhan                 Christopher                                                                                                                       Christopher           A      Siobhon                 London         A                Siobhon                                                       YES                                                                                                                                Christopher                                                                                                                                                                                                                                 Siobhon                                                                                          Yes                Yes                                                                                                                                                                                                                                                                                                                                                                                        Christopher                          Christopher                        Christopher                                                             Version   Action   Time                                       1 0   Init   2018 05 24",
-        "objectID": "blog/2018-05/现实与幻想的距离观深夜小狗离奇事件repo感想",
-        "draft": false,
-        "title": "现实与幻想的距离——观《深夜小狗离奇事件》repo&感想",
-        "tags": [
-            "话剧",
-            "National Theatre",
-            "期待的Show",
-            "文广"
-        ],
-        "series": [
-            "观后repo"
-        ],
-        "categories": [
-            "品鉴评论"
-        ],
-        "toc": true
-    },
-    {
-        "date": "2018-08-13T00:14:19+08:00",
-        "uri": "blog/2018-08/blog养成记11-给网站加个小icon",
-        "content": "index html                                                         faviconfile  config toml            avatar                                                                                                                                        Version   Action   Time                                       1 0   Init   2018 08 13",
-        "objectID": "blog/2018-08/blog养成记11-给网站加个小icon",
-        "publishdate": "2018-08-13+08:00",
-        "lastmod": "2018-08-13+08:00",
-        "draft": false,
-        "title": "Blog养成记(11) 给网站加个小icon",
-        "tags": [
-            "前端",
-            "css",
-            "blog"
-        ],
-        "series": [
-            "Blog养成记"
-        ],
-        "categories": [
-            "杂技浅尝"
-        ],
-        "img": "images/blog/2018-08/test5.jpg",
-        "toc": true,
-        "summary": "我们经常看到百度等网页会有自己的网站图标，在浏览器打开时显示在左侧，那如何给自己的网站也添加这么一个icon呢？"
-    },
-    {
-        "date": "2018-08-01T10:23:48+08:00",
-        "uri": "blog/2018-08/前端试水1-前端技术路线",
-        "content": "UI   UX       request                   UI        html css                       js                           js        vue js react js                                     gulp webpack                                                           js                        js                                              demo                                                                                                 css html                                                                                css     html            css   css            css                           sass less     css                     css           bootstrap   bootstrap      js           css          bootstrap            vue  react            bootstrap   css       html         css                   html              html   html                                hugo   jekyll hexo              html                         html                                                    python          flask            html               Version   Action   Time                                                  1 0   Init          2018 08 05",
-        "objectID": "blog/2018-08/前端试水1-前端技术路线",
-        "publishdate": "2018-08-04",
+        "date": "2019-10-02T03:20:15.000Z",
+        "uri": "blog/2019-10/start",
+        "content": "hexo             hugo                  hugo                    hexo                              hugo            hugo   theme      hugo  algolia",
+        "objectID": "blog/2019-10/start",
+        "publishdate": "2019-10-02",
         "lastmod": "2018-08-07",
         "draft": false,
-        "title": "前端试水(1) 前端技术路线",
+        "title": "hugo搭建成功",
         "tags": [
-            "前端"
+            "hugo"
         ],
         "series": [
-            "前端试水"
+            "hugo配置"
         ],
         "categories": [
-            "杂技浅尝"
+            "hugo搭建"
         ],
         "img": "images/blog/2018-08/test4.jpg",
-        "toc": true
-    },
-    {
-        "date": "2018-08-02T15:49:22+08:00",
-        "uri": "blog/2018-08/前端试水2-使用docker镜像的sass配置",
-        "content": "less sass        sass             docker sass  node sass                                                                Sass    Sass     css        css                          css                                             css                                   css     sass    less                       Bootstrap4   less    sass sass            sass     Sass   Sass vs Scss Sass                   sass  scss   sass                                        font stack  Helvetica  sans serif  primary color   333 body font  100   font stack color   primary color     scss     css3                font stack  Helvetica  sans serif   primary color   333  body   font  100   font stack  color   primary color            scss                     Ruby Sass vs Libsass vs Dart Sass                Sass    Ruby Sass    Sass           ruby                        Libsass   C                   Sassc   Libsass     wrapper                                    Dart Sass   Ruby Sass                                                                                       docker                    node sass dockerfile                    sass               docker             Libsass Docker         libsass               watch       dart sass            Dart Sass Docker                 Libsass Docker   Dart Sass Docker                                                                       Size   8 76MB   680MB     Writen   C   JS     Compiling Speed   Fast   Normal     Integrated JS   No   Yes     Function   Limited   Full     Update Feq   Priority   Normal   First Priority   Libsass Docker         sass      Dockerfile       jbergknoff sass                  alpine base image     sassc libsass                              sassc libsass            8 76MB     Dockerfile         ENTRYPOINT  CMD          Sass             Libsass Docker                      docker pull orianna libsass        docker     sass scss             alias                                       etc profile                 profile       Mac linux            bashrc                   profile      vi    profile              libsass         docker                  config alias alias libsass  docker run  it   rm  v    pwd   sass  v    pwd   output orianna libsass latest    source                source    profile             libsass    sass docker     Libsass Docker            alias              sass scss   css      libsass ORIGIN sass DEST css                                                            docker       entrypoint             docker run   name my sass  it   rm   entrypoint sh orianna libsass Dart Sass Docker   Sassc                  Dart Sass            dart sass      Dart Sass github            alpine  standalone            dart       node  base image   node alpine                       680MB  Dart Sass Docker                      docker pull orianna dart sass        docker     sass scss             alias                                       etc profile                 profile       Mac linux            bashrc                   profile      vi    profile              sass         docker                  config alias alias sass  docker run  it   rm  v    pwd   sass  v    pwd   output orianna dart sass latest    source                source    profile             sass    sass docker     Dart Sass Docker            alias              sass scss   css      sass ORIGIN sass DEST css                                             dart sass     watch                                              docker       entrypoint             docker run   name my sass  it   rm   entrypoint sh orianna dart sass Resource           docker Sass      Libsass docker   Dart Sass docker   Docker Sass Dockerfile  Sass   Libsass github Dart Sass github        Version   Action   Time                                       1 0   Init   2018 08 02",
-        "objectID": "blog/2018-08/前端试水2-使用docker镜像的sass配置",
-        "publishdate": "2018-08-02",
-        "lastmod": "2018-08-05",
-        "draft": false,
-        "title": "前端试水(2) 使用docker镜像的Sass配置",
-        "tags": [
-            "前端",
-            "sass",
-            "docker",
-            "环境配置",
-            "css"
-        ],
-        "series": [
-            "前端试水"
-        ],
-        "categories": [
-            "杂技浅尝"
-        ],
-        "toc": true
-    },
-    {
-        "date": "2018-08-12T23:03:12+08:00",
-        "uri": "blog/2018-08/音乐剧catrepo",
-        "content": "Cat                  2018 8 1  19 30      8 1                                                                                                           15min                                      Repo        8 1                                                                   cat2                          1          1v1                                                                   20                18                                                                                                                                                                                                                                                                                                                                                                                                                  1000 VIP                                                                                                                                                                                                                                                                                                                                                         Version   Action   Time                                       1 0   Init   2018 08 12",
-        "objectID": "blog/2018-08/音乐剧catrepo",
-        "draft": false,
-        "title": "音乐剧《Cat》repo",
-        "tags": [
-            "musical",
-            "大剧院"
-        ],
-        "series": [
-            "观后repo"
-        ],
-        "categories": [
-            "品鉴评论"
-        ],
-        "img": "images/blog/2018-08/test3.jpg",
         "toc": true
     }
 ]
